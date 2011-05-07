@@ -5,11 +5,11 @@
   My bookmarklets.
 ## Synopsis
   * As external file
-    URL:  javascript:(function(){document.getElementsByTagName('head')[0].appendChild(
+	javascript:(function(){document.getElementsByTagName('head')[0].appendChild(
 	  document.createElement('script').src = 'File URL'
 	)})()
   * As pure script
-    URL:  javascript:pure js source.
+	javascript:pure js source.
 ## Author
   namusyaka
 ## License
