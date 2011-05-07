@@ -13,6 +13,7 @@
 	)})()
 
   * As pure script
+
 	javascript:pure js source.
 
 ## Author
