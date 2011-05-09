@@ -1,0 +1,10 @@
+javascript:(function() {
+  var d=document,w=window.prompt('抽出するID'),$=function(e){return d.createElement(e)},r='<dl>';
+  var t=d.getElementsByTagName('dl')[0],dt=t.getElementsByTagName('dt'),dd=t.getElementsByTagName('dd'),l=dt.length;
+  for(var i=0;i<l;i++)
+    if(dt[i].innerHTML.indexOf(w)!==-1)
+	  r += '<dt>'+dt[i].innerHTML+'</dt>' + '<dd>'+dd[i].innerHTML+'</dd>';
+  if(r=='<dl>') return alert('見つからなかった');
+  d.write(r);
+  d.close()
+})()
